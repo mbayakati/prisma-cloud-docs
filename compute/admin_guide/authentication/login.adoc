@@ -30,7 +30,7 @@ Prisma Cloud supports all standard OpenID Connect providers.
 
 === Login flow
 
-If you integrate Prisma Cloud with an identity provider (IdP), the user's identity is verified by the IdP, and the role is mapped in Prisma Cloud Console.
+If you integrate Prisma Cloud with an identity provider (IdP), the user's identity is verified by the IdP, and the role is mapped in Prisma Cloud Compute Console.
 
 If you don't want to integrate with an IdP, Prisma Cloud lets you create "local" users and groups, where the Console itself both authenticates and authorizes users.
 

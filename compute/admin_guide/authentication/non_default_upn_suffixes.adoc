@@ -1,6 +1,6 @@
 == Non-default UPN suffixes
 
-Active Directory allows administrators to https://technet.microsoft.com/en-us/library/cc772007(v=ws.11).aspx[specify custom UPN suffixes] that can be applied to user accounts.
+Active Directory allows you to https://technet.microsoft.com/en-us/library/cc772007(v=ws.11).aspx[specify custom UPN suffixes] that can be applied to user accounts.
 The default UPN suffix for a user account is the Domain Name System (DNS) domain name of the domain that contains the user account.
 Microsoft refers to this as the https://msdn.microsoft.com/en-us/library/windows/desktop/aa380525(v=vs.85).aspx[implicit UPN].
 Administrators may choose to add additional suffixes to shorten user names or provide consistent UPNs across a forest composed of multiple domains; these are known as explicit UPNs.
