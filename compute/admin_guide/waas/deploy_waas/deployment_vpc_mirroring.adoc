@@ -1,4 +1,4 @@
-== Deploying WAAS out-of-band with VPC Traffic Mirroring
+== Deploy WAAS out-of-band with VPC Traffic Mirroring
 
 Out-of-band WAAS rules inspect HTTP requests and responses via a mirror of the traffic to provide WAAS detections. 
 It is possible to mirror traffic for out-of-band inspection using AWS VPC traffic mirroring.

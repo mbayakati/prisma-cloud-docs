@@ -1,4 +1,4 @@
-== Deploying WAAS
+== Deploy WAAS
 
 WAAS (Web-Application and API Security) can secure both containerized and non-containerized web applications.
 To deploy WAAS, create a new rule, and declare the entity to protect. 

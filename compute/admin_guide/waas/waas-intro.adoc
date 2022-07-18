@@ -55,7 +55,7 @@ image::./waas_network_management.png[width=150]
 WAAS inspects all incoming requests and forwards them to the protected application if there are no malicious activities. The response from the application is in turn inspected by WAAS and sent to the user if it's not violating any rules.
 
 This way, the Inline proxy is more secure as it can stop the incoming and outgoing traffic flow, but it consumes high resources, and may also result in application outage.
-The inline proxy needs an agent (Observer) to be deployed in the environment.
+The inline proxy needs a Defender to be deployed in the environment.
 
 ==== WAAS Out-of-band
 
@@ -97,7 +97,7 @@ Requests that trigger a WAAS protection are subject to one of the following acti
 NOTE: WAAS implements state, which is required for banning user sessions by IP address.
 Because Defenders do not share state, any application replicated across multiple nodes must enable IP stickiness on the load balancer.
 
-=== Supported Protocols, Message Parsers and Decoders
+=== Supported Protocols, Message Parsers, and Decoders
 
 ==== Supported Protocols
 
