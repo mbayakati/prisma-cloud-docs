@@ -1,3 +1,6 @@
+OpenID Connect now supports Azure AD integration as part of the latest Kepler Release. Can we please have the document included with the steps to integrate with Azure AD so that customer can start using the functionality? Thanks! 
+
+
 == Integrate Prisma Cloud with Open ID Connect
 
 OpenID Connect is an standard that extends OAuth 2.0 to add an identity layer.
