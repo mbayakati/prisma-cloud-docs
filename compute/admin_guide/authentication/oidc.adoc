@@ -2,7 +2,7 @@
 
 OpenID Connect is an standard that extends OAuth 2.0 to add an identity layer.
 Prisma Cloud supports integration with any standard Open ID Connect (OIDC) provider that implements both OpenID connect core and OpenID connect discovery.
-Instructions for integrating with PingOne and Okta are shown here.
+Instructions for integrating with PingOne and Okta are shown here. OpenID Connect now also supports Azure AD integration as part of the latest Kepler Release. Can we please have the document included with the steps to integrate with Azure AD so that customers can start using the functionality?
 
 Prisma Cloud supports the authorization code flow only.
 
